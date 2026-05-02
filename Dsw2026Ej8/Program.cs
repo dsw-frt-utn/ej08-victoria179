@@ -30,13 +30,19 @@ namespace Dsw2026Ej8
             result = problema4.CalcularPromedio(15, -5, null);
             Console.WriteLine(result);*/
 
-            var problema5 = new Problema5();
+            /*var problema5 = new Problema5();
 
             Sale ventaMinorista = new RetailSale { Amount = 100m };
             Sale ventaMayorista = new WholesaleSale { Amount = 100m };
 
             Console.WriteLine(problema5.ObtenerImporteFinal(ventaMinorista));
-            Console.WriteLine(problema5.ObtenerImporteFinal(ventaMayorista));
+            Console.WriteLine(problema5.ObtenerImporteFinal(ventaMayorista));*/
+
+            var problema6 = new Problema6();
+            string ejemplo = " ab 123 x ";
+            string resultado = problema6.NormalizarCodigoProducto(ejemplo);
+            Console.WriteLine(resultado);
+            Console.WriteLine(problema6.NormalizarCodigoProducto(null));
 
 
             Console.ReadKey();
