@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    public partial class ProductHelper
+    internal partial class ProductHelper
     {
         public string ObtenerEtiqueteProducto (long code, string description, decimal price)
         {
