@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal partial class ProductHelper
+    public partial class ProductHelper
     {
         private string FormatearPrecio(decimal price)
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class Problema3
+    public class Problema3
     { 
         public string ComprarCopias(int originalValue,Product product)
         {
